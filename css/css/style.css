@@ -1,0 +1,184 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 100%;
+    min-height: 700px;
+    background-image: url(../images/give_hope.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.8;
+    
+}
+
+header {
+    width: 100%;
+    min-height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: transparent;
+    position: relative;
+}
+
+.logo a {
+    /* width: 50%; */
+    text-decoration: none;
+    /* margin: 50px 150px 0 150px; */
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+}
+
+.logo a:hover {
+    font-weight: 600;
+}
+
+header ul li{
+    /* width: 50%; */
+    /* margin-top: 100px; */
+    display: inline-block;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 20px;
+}
+
+header ul li a {
+    /* /* list-style-type: none; * */
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.5s;
+}
+
+header ul li a::after {
+    content: "";
+    position: absolute;
+    background: linear-gradient(to right, #fd004c, #fe9000, #fff020, #3edf4b, #3363ff, #b102b7);
+    width: 0;
+    height: 3px;
+    left: 0;
+    bottom: -10px;  
+} 
+
+
+h1 {
+    color: rgb(36, 33, 120);
+    text-align: center;
+    margin-top: 90px;
+    font-weight: 600;
+    font-size: 65px;
+}
+
+a.video_link {
+    margin: 100px 550px;
+    font-size: 40px;
+    color:hsl(254, 96%, 9%);
+    text-decoration: none;
+    
+}
+
+a.video_link:hover {
+    font-size: 45px;
+    color:rgb(3, 53, 97);
+}
+
+.about {
+    width: 100%;
+    min-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.info {
+    width: 300px;
+    min-height: 200px;
+    background-color: rgb(106, 181, 231);
+    
+}
+
+.info p {
+    font-size: 20px;
+    font-weight: 400;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.view_btn {
+    min-width: 150px;
+    height: 30px;
+    background-color: white;
+    font-size: 15px;
+}
+
+.info.view_btn:hover {
+    background-color: blue;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+.view_number {
+    margin: 5px 0 0 5px;
+}
+
+.more {
+    width: 100%;
+    min-height: 150px;
+    display: inline-block;
+}
+
+.about_us {
+    padding-left: 10px;
+    width: 300px;
+    min-height: 200px;
+}
+
+.about_text span{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 17px;
+}
+
+.about_text {
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.more {
+    /* width: 800px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.learn_more {
+    width: 150px;
+    height: 30px;
+    background-color: rgb(106, 181, 231);
+    color: aliceblue;
+    font-size: 15px;
+}
+
+.icons, .more a {
+    color: rgb(106, 181, 231);
+}
+
+/* .missions, .donations, .volunteers {
+    /* width: 250px; */
+} */
+
+
+/* content: "";
+    position: absolute;
+    background: linear-gradient(to right, #fd004c, #fe9000, #fff020, #3edf4b, #3363ff, #b102b7);
+    width: 0;
+    height: 3px;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s; */
